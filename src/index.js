@@ -20,7 +20,7 @@ const __dirname = path.resolve();
 
 app.use(
   cors({
-    origin: "https://chatapplicationfrontend-jhpr.vercel.app",
+    origin: "https://chatapplicationfrontend-jhpr-git-master-ujjwal250802s-projects.vercel.app",
     credentials: true, // allow frontend to send cookies
   })
 );
