@@ -20,7 +20,7 @@ const __dirname = path.resolve();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://chatapplicationfrontend-smoky.vercel.app",
     credentials: true, // allow frontend to send cookies
   })
 );
